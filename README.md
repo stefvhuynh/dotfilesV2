@@ -23,5 +23,6 @@ command.
 
 ## Devtools
 
-1. homebrew
-2. antigen (zsh package manager)
+1. Homebrew (osx package manager)
+2. Antigen (zsh plugin manager)
+3. Volta (js toolchain manager, node version manager)

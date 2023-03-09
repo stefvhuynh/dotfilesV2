@@ -3,15 +3,19 @@
 . ./bin/vars.sh
 . ./bin/utils.sh
 
-main () 
+main ()
 {
-  # Uninstall homebrew
-  dotfiles_echo "Uninstalling homebrew..."
+  # Uninstall Homebrew
+  dotfiles_echo "Uninstalling Homebrew..."
   /bin/bash -c "$(curl -fsSL $homebrew_uninstall_url)"
 
-  # Uninstall antigen
-  dotfiles_echo "Uninstalling antigen..."
+  # Uninstall Antigen
+  dotfiles_echo "Uninstalling Antigen..."
   rm -rf $antigen_path
+
+  # Uninstall Volta
+  dotfiles_echo "Uninstalling Volta..."
+  rm -rf $volta_path
 
   # zsh symlinks
   for file in ${dotfiles[@]}; do
