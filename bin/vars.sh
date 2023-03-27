@@ -1,6 +1,7 @@
 #!/bin/sh
 
 dotfiles=(
+  .vimrc
   .zshrc
   .zprofile
 )
