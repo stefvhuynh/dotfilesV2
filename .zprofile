@@ -8,3 +8,6 @@ fi
 # Set Volta path
 VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# Set libpq (postgres tool) path
+export PATH="/usr/local/opt/libpq/bin:$PATH"

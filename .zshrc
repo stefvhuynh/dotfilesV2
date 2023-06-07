@@ -5,11 +5,12 @@ source $HOME/.antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Plugins
-antigen bundle git
 antigen bundle command-not-found
-antigen bundle dirhistory
+antigen bundle dircyle
+antigen bundle git
 antigen bundle history
 antigen bundle jsontools
+antigen bundle last-working-dir
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
