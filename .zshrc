@@ -6,7 +6,7 @@ antigen use oh-my-zsh
 
 # Plugins
 antigen bundle command-not-found
-antigen bundle dircyle
+antigen bundle dircycle
 antigen bundle git
 antigen bundle history
 antigen bundle jsontools
